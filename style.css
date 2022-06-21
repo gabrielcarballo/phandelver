@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+
+*   {
+    box-sizing: border-box;
+    
+}
+
+body    {
+    font-family: 'Bellefair';
+}
+
+.flag {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.phandelver{
+    text-align: center;
+    font-size: 20px;
+}
+
+.phandelver p {
+    margin-top: 11px
+}
