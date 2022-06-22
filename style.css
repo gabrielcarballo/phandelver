@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Tangerine:wght@700&display=swap');
 
 *   {
     box-sizing: border-box;
@@ -10,11 +10,18 @@ body    {
 }
 
 .flag {
-    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 150px;
+}
+
+.flag img {
+    position: absolute;
+    z-index: -1;
+    position: fixed;
+    height: 152px;
+    width: 22%;
 }
 
 .phandelver{
@@ -23,5 +30,22 @@ body    {
 }
 
 .phandelver p {
-    margin-top: 11px
+    margin-top: 11px;
+    z-index: 1;
+    font-family: 'Tangerine';
+    font-size: 35px;
+}
+
+.individual-button {
+    background-color: aqua;
+    width: 25%;
+    height: ;
+}
+
+.upper-menu{
+    display: flex;
+}
+
+.bottom-menu{
+    display: flex;
 }
